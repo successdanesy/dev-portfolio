@@ -202,6 +202,7 @@ img{
 .home__social{
     display: flex;
     flex-direction: column;
+    padding-top: 20%;
 }
 .home__social-icon{
     width: max-content;
@@ -212,9 +213,21 @@ img{
 .home__social-icon:hover{
     color: var(--first-color);
 }
-.home__img{
+.home__img {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 295px;
+    width: 260px;
+  }
+/* BUTTON */
+.button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: .75rem 2.5rem;
+    font-weight: var(--font-semi);
+    border-radius: .5rem;
+}
+.button:hover{
+    box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
