@@ -294,7 +294,8 @@ img{
     border-radius: .5rem;
     z-index: var(--z-back);
 }
-.skills__html{
+
+/* .skills__html{
     width: 80%;
 }
 .skills__css{
@@ -317,4 +318,43 @@ img{
 }
 .skills__canva{
     width: 65%;
+} */
+ .skills__bar.skills__html {
+    width: 95%;
+    background-color: #e44d26; /* HTML5 orange */
+}
+
+.skills__bar.skills__css {
+    width: 90%;
+    background-color: #264de4; /* CSS3 blue */
+}
+
+.skills__bar.skills__js {
+    width: 85%;
+    background-color: #f0db4f; /* JavaScript yellow */
+}
+
+.skills__bar.skills__php {
+    width: 80%;
+    background-color: #8892be; /* PHP purple-gray */
+}
+
+.skills__bar.skills__flutter {
+    width: 75%;
+    background-color: #02569b; /* Flutter blue */
+}
+
+.skills__bar.skills__rest {
+    width: 80%;
+    background-color: #00adb5; /* Teal for REST API */
+}
+
+.skills__bar.skills__git {
+    width: 90%;
+    background-color: #f1502f; /* Git orange */
+}
+
+.skills__bar.skills__canva  {
+    width: 70%;
+    background-color: #00c4cc; /* Canva teal */
 }
