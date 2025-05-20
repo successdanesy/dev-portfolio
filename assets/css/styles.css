@@ -23,6 +23,9 @@
         --h2-font-size:2rem;
         --normal-font-size: 1rem;
     }
+    .about__img{
+    justify-self: center;
+}
 }
 
 /*margins*/
@@ -138,6 +141,9 @@ img{
         background-color: var(--second-color);
         transition: 0.5s;
     }
+    .about__img{
+    justify-self: center;
+}
 }
 .nav__item {
     margin-bottom: var(--mb-4);
